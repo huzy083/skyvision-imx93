@@ -1,0 +1,272 @@
+[
+ {
+  "img": "08-06-2021_DJI_0285_391.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 26-11-2020_DJI_0262_vari_grip_910.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹和腐蚀痕迹"
+ },
+ {
+  "img": "11-06-2021_DJI_0096_3.jpg",
+  "true": "bird-nest",
+  "pred": "bird-nest",
+  "reason": "输电线路部件上方有明显的鸟巢结构，由大量树枝和杂草构成。"
+ },
+ {
+  "img": "Fotos 27-11-2020_DJI_0567_vari_grip_926.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象"
+ },
+ {
+  "img": "Fotos 27-11-2020_DJI_0291_vari_grip_947.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 17-11-2020_DJI_0289_vari_grip_478.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹和腐蚀痕迹"
+ },
+ {
+  "img": "Fotos 26-11-2020_DJI_0215_vari_grip_909.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "15-06-2021_DJI_0017_720.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象"
+ },
+ {
+  "img": "15-06-2021_DJI_0043_724.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "10-06-2021_DJI_0245_651.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 25-11-2020_DJI_0563_vari_grip_842.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈蚀痕迹，表明存在腐蚀现象。"
+ },
+ {
+  "img": "Fotos 19-11-2020_DJI_0151_vari_grip_576.jpg",
+  "true": "bird-nest",
+  "pred": "good",
+  "reason": "该部件外观完好，无明显锈蚀或损坏，连接牢固，符合正常状态特征。"
+ },
+ {
+  "img": "Fotos 26-11-2020_DJI_0162_vari_grip_915.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 25-11-2020_DJI_0207_vari_grip_860.jpg",
+  "true": "bird-nest",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 23-11-2020_DJI_0279_vari_grip_767.jpg",
+  "true": "bird-nest",
+  "pred": "good",
+  "reason": "部件结构完整，无明显锈蚀或损坏，处于正常状态"
+ },
+ {
+  "img": "Fotos 07-12-2020_DJI_0059_vari_grip_192.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件表面无明显锈蚀或损坏，结构完整，处于正常状态"
+ },
+ {
+  "img": "Fotos 10-12-2020_DJI_0145_vari_grip_308.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件结构完整，无明显锈蚀或损坏，处于正常状态"
+ },
+ {
+  "img": "Fotos 14-12-2020_DJI_0625_vari_grip_395.jpg",
+  "true": "good",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象"
+ },
+ {
+  "img": "Fotos 20-10-2020_DJI_0339_vari_grip_606.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件外观完好，无明显锈蚀或损坏，连接牢固，处于正常状态。"
+ },
+ {
+  "img": "Fotos 26-11-2020_DJI_0473_vari_grip_891.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件表面无明显锈蚀或损坏，结构完整，连接牢固，处于正常状态。"
+ },
+ {
+  "img": "Fotos 30-11-2020_DJI_0438_vari_grip_977.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件外观完好，无明显锈蚀或损坏，连接牢固，符合正常状态特征。"
+ },
+ {
+  "img": "Fotos 01-12-2020_DJI_0403_vari_grip_30.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件表面无明显锈蚀或损坏，连接牢固，状态正常"
+ },
+ {
+  "img": "Fotos 23-11-2020_DJI_0010_vari_grip_805.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件表面无明显锈蚀或损坏，结构完整，处于正常状态"
+ },
+ {
+  "img": "Fotos 20-10-2020_DJI_0208_vari_grip_627.jpg",
+  "true": "good",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 07-12-2020_DJI_0155_vari_grip_186.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件表面无明显锈蚀或损坏，连接结构完整，处于正常状态"
+ },
+ {
+  "img": "Fotos 01-12-2020_DJI_0512_vari_grip_23.jpg",
+  "true": "good",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象"
+ },
+ {
+  "img": "Fotos 20-11-2020_DJI_0171_vari_grip_686.jpg",
+  "true": "good",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 22-10-2020_DJI_0858_vari_grip_718.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件表面无明显锈蚀或损坏，结构完整，处于正常状态"
+ },
+ {
+  "img": "Fotos 18-11-2020_DJI_0246_vari_grip_528.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件表面无明显锈蚀或损坏，结构完整，处于正常状态"
+ },
+ {
+  "img": "Fotos 20-10-2020_DJI_0284_vari_grip_592.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "部件外观完好，无明显锈蚀或损坏，处于正常状态"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0048_vari_grip_765.jpg",
+  "true": "rust",
+  "pred": "good",
+  "reason": "部件外观完好，无明显锈蚀或损坏迹象，处于正常状态。"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0038_vari_grip_755.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0041_vari_grip_757.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，尤其是金属连接部分和钢缆接口处。"
+ },
+ {
+  "img": "15-06-2021_DJI_0117_739.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0045_vari_grip_761.jpg",
+  "true": "rust",
+  "pred": "good",
+  "reason": "部件外观完好，无明显损坏或锈蚀迹象，连接正常"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0048_vari_grip_766.jpg",
+  "true": "rust",
+  "pred": "good",
+  "reason": "部件外观完好，无明显锈蚀或损坏，连接稳固，符合正常状态特征"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0043_vari_grip_759.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0045_vari_grip_762.jpg",
+  "true": "rust",
+  "pred": "good",
+  "reason": "部件外观完整，无明显损坏或锈蚀迹象，处于正常状态"
+ },
+ {
+  "img": "15-06-2021_DJI_0118_740.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0029_vari_grip_746.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0035_vari_grip_754.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "09-06-2021_DJI_0467_571.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "该部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0041_vari_grip_758.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "10-06-2021_DJI_0019_612.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象。"
+ },
+ {
+  "img": "Fotos 23-10-2020_DJI_0032_vari_grip_749.jpg",
+  "true": "rust",
+  "pred": "rust",
+  "reason": "部件表面有明显的锈迹，表明存在锈蚀现象"
+ }
+]

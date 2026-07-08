@@ -1,0 +1,21 @@
+[Unit]
+Description=SkyVision Link Analyzer (IW612 monitor mode metrics)
+After=network.target skyvision-ap.service
+Wants=skyvision-ap.service
+
+[Service]
+Type=simple
+# Bring up mon0 on the same channel as uap0 before the analyzer starts.
+ExecStartPre=-/usr/sbin/iw phy mwiphy0 interface add mon0 type monitor
+ExecStartPre=-/usr/sbin/ip link set mon0 up
+ExecStart=/usr/bin/python3 /opt/skyvision/link-analyzer/link_analyzer.py
+Restart=on-failure
+RestartSec=5
+ExecStopPost=-/usr/sbin/ip link set mon0 down
+ExecStopPost=-/usr/sbin/iw dev mon0 del
+# Modest CPU cap so the analyzer cannot starve the video pipeline.
+CPUQuota=30%
+Nice=5
+
+[Install]
+WantedBy=multi-user.target

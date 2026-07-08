@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>SkyVision · 远程监控</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">SkyVision <span class="sub">远程监控</span></div>
+  <div class="conn" id="connBadge">●连接中</div>
+</header>
+
+<main>
+  <section class="card video">
+    <div class="title-row">
+      <h3>实时画面</h3>
+      <span class="meta" id="videoMeta">—</span>
+    </div>
+    <div class="frame-wrap">
+      <img id="snapshot" alt="snapshot" src="/api/mjpeg">
+      <div class="overlay" id="snapStale">画面加载中…</div>
+    </div>
+  </section>
+
+  <section class="card detections">
+    <div class="title-row">
+      <h3>检测目标</h3>
+      <span class="meta" id="detMeta">—</span>
+    </div>
+    <div class="det-list" id="detList"></div>
+  </section>
+
+  <section class="card status">
+    <div class="title-row">
+      <h3>系统状态</h3>
+    </div>
+    <div class="grid">
+      <div><span class="k">摄像头</span><span class="v" id="stCamera">—</span></div>
+      <div><span class="k">FPS</span><span class="v" id="stFps">—</span></div>
+      <div><span class="k">延迟</span><span class="v" id="stLat">—</span></div>
+      <div><span class="k">码率</span><span class="v" id="stBr">—</span></div>
+      <div><span class="k">链路</span><span class="v" id="stLink">—</span></div>
+      <div><span class="k">录像</span><span class="v" id="stRec">—</span></div>
+    </div>
+  </section>
+
+  <section class="card uav">
+    <div class="title-row">
+      <h3>无人机状态</h3>
+      <span class="meta" id="uavMeta">—</span>
+    </div>
+    <div class="grid">
+      <div><span class="k">状态</span><span class="v" id="uavReady">—</span></div>
+      <div><span class="k">电池</span><span class="v" id="uavBatt">—</span></div>
+      <div><span class="k">飞控</span><span class="v" id="uavFcu">—</span></div>
+      <div><span class="k">模式</span><span class="v" id="uavMode">—</span></div>
+      <div><span class="k">LIO (m)</span><span class="v mono" id="uavLio">—</span></div>
+      <div><span class="k">EKF (m)</span><span class="v mono" id="uavEkf">—</span></div>
+    </div>
+  </section>
+
+  <section class="card events">
+    <div class="title-row">
+      <h3>事件日志</h3>
+      <span class="meta" id="evtCount">0</span>
+    </div>
+    <div class="evt-list" id="evtList"></div>
+  </section>
+</main>
+
+<footer>
+  <span>FRDM i.MX93 · SkyVision</span>
+  <span id="clock"></span>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+[
+ {
+  "img": "Fotos 30-11-2020_DJI_0585_cadeia_isolador_vidro_2643.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各玻璃盘均在位，无明显损坏或缺失。"
+ },
+ {
+  "img": "Fotos 26-11-2020_DJI_0497_cadeia_isolador_vidro_1994.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，状态正常"
+ },
+ {
+  "img": "Fotos 27-11-2020_DJI_0304_cadeia_isolador_vidro_2459.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子盘完整，无缺失或掉串现象"
+ },
+ {
+  "img": "Fotos 27-11-2020_DJI_0553_cadeia_isolador_vidro_2273.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各玻璃绝缘子盘均在位，无明显损坏或缺失。"
+ },
+ {
+  "img": "Fotos 25-11-2020_DJI_0363_cadeia_isolador_vidro_1703.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各玻璃绝缘子盘均在位，无明显损坏或缺失。"
+ },
+ {
+  "img": "Fotos 30-11-2020_DJI_0370_cadeia_isolador_vidro_2711.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各玻璃绝缘子盘排列整齐，无明显缺失或损坏。"
+ },
+ {
+  "img": "Fotos 27-11-2020_DJI_0345_cadeia_isolador_vidro_2404.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各玻璃绝缘子盘均在位，无明显损坏或缺失。"
+ },
+ {
+  "img": "Fotos 02-12-2020_DJI_0104_cadeia_isolador_vidro_654.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各盘状绝缘子排列整齐，无明显缺失或损坏。"
+ },
+ {
+  "img": "Fotos 30-11-2020_DJI_0115_cadeia_isolador_vidro_2876.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显损坏或缺失，状态正常"
+ },
+ {
+  "img": "Fotos 07-12-2020_DJI_0246_cadeia_isolador_vidro_1313.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，状态正常"
+ },
+ {
+  "img": "Fotos 03-12-2020_DJI_0035_cadeia_isolador_vidro_1048.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各盘状部件排列整齐，无明显缺失或损坏。"
+ },
+ {
+  "img": "Fotos 30-11-2020_DJI_0159_cadeia_isolador_vidro_2937.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串完整，各玻璃绝缘子盘排列整齐，无明显缺失或损坏。"
+ },
+ {
+  "img": "Fotos 30-11-2020_DJI_0142_cadeia_isolador_vidro_2916.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，各玻璃绝缘子盘排列整齐，连接正常。"
+ },
+ {
+  "img": "Fotos 25-11-2020_DJI_0219_cadeia_isolador_vidro_1880.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各玻璃绝缘子盘均在位，无明显损坏或缺失。"
+ },
+ {
+  "img": "Fotos 04-12-2020_DJI_0801_cadeia_isolador_vidro_1146.jpg",
+  "true": "good",
+  "pred": "good",
+  "reason": "绝缘子串完整，各盘状部件排列整齐，无明显缺失或损坏。"
+ },
+ {
+  "img": "Fotos 03-12-2020_DJI_0401_cadeia_isolador_vidro_790.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，各玻璃绝缘子盘均在位，无缺失或掉串现象。"
+ },
+ {
+  "img": "Fotos 08-12-2020_DJI_0378_cadeia_isolador_vidro_1422.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显损坏或缺失，状态正常"
+ },
+ {
+  "img": "Fotos 03-12-2020_DJI_0366_cadeia_isolador_vidro_919.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显损坏或缺失，状态正常"
+ },
+ {
+  "img": "Fotos 25-11-2020_DJI_0450_cadeia_isolador_vidro_1778.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，各玻璃绝缘子盘排列整齐，连接正常。"
+ },
+ {
+  "img": "Fotos 21-10-2020_DJI_0435_cadeia_isolador_vidro_1573.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无缺失或掉串现象"
+ },
+ {
+  "img": "Fotos 08-12-2020_DJI_0377_cadeia_isolador_vidro_1421.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，各绝缘子盘排列整齐，状态正常。"
+ },
+ {
+  "img": "Fotos 03-12-2020_DJI_0557_cadeia_isolador_vidro_698.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串结构完整，各盘状部件排列整齐，无明显缺失或损坏。"
+ },
+ {
+  "img": "Fotos 19-10-2020_DJI_0062_cadeia_isolador_vidro_2.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显缺失或损坏"
+ },
+ {
+  "img": "Fotos 03-12-2020_DJI_0363_cadeia_isolador_vidro_914.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无缺失或掉串现象"
+ },
+ {
+  "img": "Fotos 21-10-2020_DJI_0531_cadeia_isolador_vidro_1611.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，排列整齐，处于正常状态。"
+ },
+ {
+  "img": "Fotos 19-10-2020_DJI_0074_cadeia_isolador_vidro_25.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，排列整齐，处于正常状态。"
+ },
+ {
+  "img": "Fotos 03-12-2020_DJI_0361_cadeia_isolador_vidro_911.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显损坏或缺失，状态正常"
+ },
+ {
+  "img": "Fotos 03-12-2020_DJI_0364_cadeia_isolador_vidro_915.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无明显破损或缺失，排列整齐，处于正常状态。"
+ },
+ {
+  "img": "Fotos 07-12-2020_DJI_0134_cadeia_isolador_vidro_1338.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，各盘状部件排列整齐，无明显缺失或损坏。"
+ },
+ {
+  "img": "Fotos 07-12-2020_DJI_0181_cadeia_isolador_vidro_1320.jpg",
+  "true": "missing-cap",
+  "pred": "good",
+  "reason": "绝缘子串完整，无缺失或损坏现象"
+ }
+]

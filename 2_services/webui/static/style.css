@@ -1,0 +1,120 @@
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html, body { height: 100%; }
+body {
+  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", sans-serif;
+  background: #0a0a12;
+  color: #e8e8e8;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+header {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 16px;
+  background: rgba(10,10,18,0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #222;
+}
+.brand { font-size: 18px; font-weight: 700; color: #7cfcff; letter-spacing: 0.5px; }
+.brand .sub { font-weight: 400; color: #88a; margin-left: 8px; font-size: 12px; }
+.conn { font-size: 12px; color: #6a6; padding: 4px 10px; border-radius: 12px; background: #1a2a1a; border: 1px solid #2a4a2a; }
+.conn.bad { color: #f88; background: #2a1a1a; border-color: #4a2a2a; }
+
+main {
+  padding: 12px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+  max-width: 720px;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  main { grid-template-columns: 1fr 1fr; }
+  .card.video, .card.events { grid-column: 1 / -1; }
+}
+
+.card {
+  background: #14141d;
+  border: 1px solid #232333;
+  border-radius: 10px;
+  padding: 12px;
+  overflow: hidden;
+}
+.title-row {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 10px;
+}
+.title-row h3 {
+  font-size: 13px; color: #aaa; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.title-row .meta { font-size: 11px; color: #678; }
+
+.frame-wrap { position: relative; background: #000; border-radius: 6px; overflow: hidden; aspect-ratio: 16/10; }
+.frame-wrap img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.frame-wrap .overlay {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  color: #556; font-size: 13px;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.frame-wrap.stale .overlay { opacity: 1; }
+
+.det-list {
+  display: flex; flex-direction: column; gap: 6px;
+  max-height: 200px; overflow-y: auto;
+}
+.det-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 6px 10px; border-radius: 6px;
+  background: rgba(124,252,255,0.07);
+  border-left: 3px solid #7cfcff;
+  font-size: 13px;
+}
+.det-item .label { font-weight: 600; min-width: 80px; }
+.det-item .score { color: #7cfc00; font-variant-numeric: tabular-nums; }
+.det-item .bbox { color: #678; font-size: 11px; margin-left: auto; font-family: ui-monospace, monospace; }
+.det-list:empty::after {
+  content: "(无目标)"; color: #445; padding: 10px; font-size: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 16px;
+}
+.grid > div { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #1c1c2a; }
+.grid .k { color: #678; font-size: 12px; }
+.grid .v { color: #e8e8e8; font-variant-numeric: tabular-nums; font-weight: 500; }
+
+.evt-list {
+  display: flex; flex-direction: column; gap: 2px;
+  max-height: 240px; overflow-y: auto;
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+}
+.evt-item {
+  display: flex; gap: 8px; padding: 4px 6px; border-radius: 4px;
+}
+.evt-item:hover { background: #1a1a2a; }
+.evt-item .ts { color: #556; min-width: 70px; }
+.evt-item.level-alert .msg { color: #ff8c69; }
+.evt-item.level-info .msg { color: #cce; }
+.evt-item.level-warn .msg { color: #fc6; }
+
+footer {
+  display: flex; justify-content: space-between;
+  padding: 16px; font-size: 11px; color: #445;
+  border-top: 1px solid #1a1a26;
+  margin-top: 8px;
+}
+
+/* 无人机状态配色(与地面站QML状态条一致) */
+.v.ok      { color: #7cfc00; font-weight: 600; }
+.v.warn    { color: #ffc107; font-weight: 600; }
+.v.bad     { color: #ff5555; font-weight: 700; }
+.v.info    { color: #9fdfff; font-weight: 600; }
+.v.mono    { font-family: ui-monospace, monospace; }
+.v.stale-v { color: #667; }

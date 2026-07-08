@@ -1,0 +1,20 @@
+[Unit]
+Description=SkyVision WebUI (remote monitor via HTTP+SSE on :8080)
+After=network.target skyvision-ap.service
+Wants=skyvision-ap.service
+
+[Service]
+Type=simple
+Environment=SKYVISION_MQTT_HOST=47.117.14.74
+Environment=SKYVISION_MQTT_USER=skyvision
+Environment=SKYVISION_MQTT_PASS=shing
+Environment=SKYVISION_WEBUI_PORT=8080
+WorkingDirectory=/opt/skyvision/web
+ExecStart=/usr/bin/python3 /opt/skyvision/web/webui_server.py
+Restart=on-failure
+RestartSec=3
+StandardOutput=append:/tmp/skyvision-webui.log
+StandardError=append:/tmp/skyvision-webui.log
+
+[Install]
+WantedBy=multi-user.target
